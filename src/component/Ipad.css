@@ -1,0 +1,45 @@
+.two-wrapper{
+    display: flex;
+    width: 100%;
+  
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+.both{
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    height: 90vh;
+
+}
+.two-wrapper-left{
+    background-image: url("../component/images/AVAIL/availL.jpg");
+    margin-left: 10px;
+}
+.two-wrapper-right{
+    background-image: url("../component/images/MACBOOK/macbookL.jpg");
+    margin-right: 10px;
+      
+}
+.same{
+    /* margin-top: 10px; */
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.same h1{
+    margin-top: -5px;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.p-1{
+    /* margin-bottom: 10px; */
+}
+.p-2{
+font-size: 30px;
+/* margin-bottom: 10px; */
+}

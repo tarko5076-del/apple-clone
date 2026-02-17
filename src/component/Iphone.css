@@ -1,0 +1,72 @@
+.hero{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+  height: 90vh;
+    justify-content: center; 
+    margin-bottom: 30px; 
+}
+.hero-section-1{
+    background-image: url("../component/images/HEROFp/hero_iphoneFS.jpg");
+   
+}
+.hero-text{
+    padding-top: 30px;
+    color: #333;
+    text-align: center;
+}
+.hero-text h1{
+    font-size: 60px;
+    font-weight: bold;
+
+}
+.hero-text p{
+    
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.mobile-1{
+    display: none;
+}
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  
+  margin-bottom: 30px;
+}
+
+.btn button {
+  padding: 5px 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn .bt-1 {
+  background-color: #0071e3;
+}
+.btn .bt-2{
+    border: solid 1px #0071e3;
+     background-color: white;
+    color: #0071e3;
+}
+
+.btn .bt-2:hover {
+    background-color: #0071e3;
+  color: white;
+}
+@media (min-width:768px)and (max-width:1200px){
+    .hero-section-1{
+        background-image: url("../component/images/HEROFp/hero_iphoneFM.jpg");
+    }
+}
+@media  (max-width:1200px){
+    .hero-section-1{
+        background-image: url("../component/images/HEROFp/hero_iphoneFS.jpg");
+    }
+}

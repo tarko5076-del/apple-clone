@@ -1,0 +1,53 @@
+.hero-section-3{
+
+    background-image: url("..//component/images/WATCH/watchL.jpg");
+}
+.hero-text-3{
+    padding-top: 10px;
+    color: #333;
+    text-align: center;
+}
+.collab{
+   
+    display: flex;
+     align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.collab img{
+    width: 20px;
+    height: auto;
+    display: block;
+   
+}
+.logo img {
+  width: 20px;
+  height: auto;
+  display: block;
+}
+.collab h1{
+   
+    font-size: 60px;
+    font-weight: 300;
+
+}
+.collab h1 span{
+    font-weight: 1000;
+    
+}
+.w-p{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 5px;
+
+}
+@media(min-width:781px)and (max-width:1200px){
+    .hero-section-3{
+        background-image: url("..//component/images/WATCH/watchM.jpg");
+    }
+}
+@media(max-width:780px){
+    .hero-section-3{
+        background-image: url("../component/images/WATCH/watchS.jpg");
+    }
+}

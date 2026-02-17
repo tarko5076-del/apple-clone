@@ -1,0 +1,25 @@
+.hero-section-2{
+    
+    background-image: url("../component/images/AIRPOD/airpod.jpg");
+}
+
+.hero-buttons-2 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.hero-buttons-2 a button{
+    text-transform: capitalize;
+}
+
+@media(min-width:781px)and (max-width:1200px){
+    .hero-section-2{
+        background-image: url("../component/images/AIRPOD/airpodM.jpg");
+    }
+}
+@media(max-width:780px){
+    .hero-section-2{
+        background-image: url("../component/images/AIRPOD/airpodS.jpg");
+    }
+}

@@ -1,0 +1,32 @@
+.enter{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.enter h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
+.extra{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #333;
+    margin-bottom: 10px;
+}
+.extra h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+}
+.animelook{
+    background-image: url("..//component/images/ANIME/animelookL.webp");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    margin-bottom: 10px;
+}
