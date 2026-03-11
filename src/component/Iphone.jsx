@@ -1,5 +1,5 @@
 import React from 'react';
-import './iphone.css';
+import './Iphone.css';
  function Iphone() {
 
   return (
