@@ -1,5 +1,5 @@
 import React from "react";
-import './For.css'
+import './for.css'
  function For(){
     return(
         <section>
