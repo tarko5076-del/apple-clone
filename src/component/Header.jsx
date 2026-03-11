@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Header.css"; 
 
 import logo from "./images/logo/logo.png";
-import search from "./images/search/search.png";
+import search from "./images/Search/search.png";
 import cart from "./images/cart/cart.png";
 
 export default function Header() {
